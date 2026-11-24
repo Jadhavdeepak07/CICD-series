@@ -13,7 +13,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./Day-2-terraform-github-actions
+        working-directory: ./Day-2-terraform-github-actions/main.tf
 
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
